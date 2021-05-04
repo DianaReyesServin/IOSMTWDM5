@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  jsonFarmacia
+//  SeccionesTableView
 //
 //  Created by Desarrollo DAM on 03/05/21.
 //

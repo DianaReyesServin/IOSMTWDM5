@@ -1,29 +1,30 @@
 //
-//  detalleViewController.swift
+//  DetalleViewController.swift
 //  jsonFarmacia
 //
-//  Created by Rodrigo Arango on 17/04/21.
+//  Created by Desarrollo DAM on 03/05/21.
 //
 
 import UIKit
 
-class detalleViewController: UIViewController {
+class DetalleViewController: UIViewController {
+
+    @IBOutlet var imagen: UIImageView!
+    @IBOutlet var Nombre: UILabel!
+    @IBOutlet var Dosis: UILabel!
+    @IBOutlet var Sustancia: UILabel!
+    
+    var nombreDetalle: String?
+    var imagenDetalle = UIImage()
+    var dosisDetalle: String?
+    var sustanciaDetalle: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        Nombre.text = nombreDetalle
+        imagen.image = imagenDetalle
+        Dosis.text = dosisDetalle
+        Sustancia.text = sustanciaDetalle
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

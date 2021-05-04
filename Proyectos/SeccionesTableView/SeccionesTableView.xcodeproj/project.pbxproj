@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		257ABEEE2640A15800EEB74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABEED2640A15800EEB74B /* AppDelegate.swift */; };
-		257ABEF02640A15800EEB74B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABEEF2640A15800EEB74B /* SceneDelegate.swift */; };
-		257ABEF22640A15800EEB74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABEF12640A15800EEB74B /* ViewController.swift */; };
-		257ABEF52640A15800EEB74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABEF32640A15800EEB74B /* Main.storyboard */; };
-		257ABEF72640A15900EEB74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257ABEF62640A15900EEB74B /* Assets.xcassets */; };
-		257ABEFA2640A15900EEB74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABEF82640A15900EEB74B /* LaunchScreen.storyboard */; };
-		257ABF032640A4BF00EEB74B /* Medicamentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABF022640A4BF00EEB74B /* Medicamentos.swift */; };
-		257ABF062640ADDA00EEB74B /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABF052640ADDA00EEB74B /* DetalleViewController.swift */; };
+		257ABF152640BA6100EEB74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABF142640BA6100EEB74B /* AppDelegate.swift */; };
+		257ABF172640BA6100EEB74B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABF162640BA6100EEB74B /* SceneDelegate.swift */; };
+		257ABF192640BA6100EEB74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257ABF182640BA6100EEB74B /* ViewController.swift */; };
+		257ABF1C2640BA6100EEB74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABF1A2640BA6100EEB74B /* Main.storyboard */; };
+		257ABF1E2640BA6F00EEB74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257ABF1D2640BA6F00EEB74B /* Assets.xcassets */; };
+		257ABF212640BA6F00EEB74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257ABF1F2640BA6F00EEB74B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		257ABEEA2640A15800EEB74B /* jsonFarmacia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jsonFarmacia.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		257ABEED2640A15800EEB74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		257ABEEF2640A15800EEB74B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		257ABEF12640A15800EEB74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		257ABEF42640A15800EEB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		257ABEF62640A15900EEB74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		257ABEF92640A15900EEB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		257ABEFB2640A15900EEB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		257ABF022640A4BF00EEB74B /* Medicamentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicamentos.swift; sourceTree = "<group>"; };
-		257ABF052640ADDA00EEB74B /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		257ABF112640BA6100EEB74B /* SeccionesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeccionesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		257ABF142640BA6100EEB74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		257ABF162640BA6100EEB74B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		257ABF182640BA6100EEB74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		257ABF1B2640BA6100EEB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		257ABF1D2640BA6F00EEB74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		257ABF202640BA6F00EEB74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		257ABF222640BA6F00EEB74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		257ABEE72640A15700EEB74B /* Frameworks */ = {
+		257ABF0E2640BA6100EEB74B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		257ABEE12640A15700EEB74B = {
+		257ABF082640BA6100EEB74B = {
 			isa = PBXGroup;
 			children = (
-				257ABEEC2640A15800EEB74B /* jsonFarmacia */,
-				257ABEEB2640A15800EEB74B /* Products */,
+				257ABF132640BA6100EEB74B /* SeccionesTableView */,
+				257ABF122640BA6100EEB74B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		257ABEEB2640A15800EEB74B /* Products */ = {
+		257ABF122640BA6100EEB74B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				257ABEEA2640A15800EEB74B /* jsonFarmacia.app */,
+				257ABF112640BA6100EEB74B /* SeccionesTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		257ABEEC2640A15800EEB74B /* jsonFarmacia */ = {
+		257ABF132640BA6100EEB74B /* SeccionesTableView */ = {
 			isa = PBXGroup;
 			children = (
-				257ABEED2640A15800EEB74B /* AppDelegate.swift */,
-				257ABEEF2640A15800EEB74B /* SceneDelegate.swift */,
-				257ABEF12640A15800EEB74B /* ViewController.swift */,
-				257ABEF32640A15800EEB74B /* Main.storyboard */,
-				257ABEF62640A15900EEB74B /* Assets.xcassets */,
-				257ABEF82640A15900EEB74B /* LaunchScreen.storyboard */,
-				257ABEFB2640A15900EEB74B /* Info.plist */,
-				257ABF022640A4BF00EEB74B /* Medicamentos.swift */,
-				257ABF052640ADDA00EEB74B /* DetalleViewController.swift */,
+				257ABF142640BA6100EEB74B /* AppDelegate.swift */,
+				257ABF162640BA6100EEB74B /* SceneDelegate.swift */,
+				257ABF182640BA6100EEB74B /* ViewController.swift */,
+				257ABF1A2640BA6100EEB74B /* Main.storyboard */,
+				257ABF1D2640BA6F00EEB74B /* Assets.xcassets */,
+				257ABF1F2640BA6F00EEB74B /* LaunchScreen.storyboard */,
+				257ABF222640BA6F00EEB74B /* Info.plist */,
 			);
-			path = jsonFarmacia;
+			path = SeccionesTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		257ABEE92640A15700EEB74B /* jsonFarmacia */ = {
+		257ABF102640BA6100EEB74B /* SeccionesTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 257ABEFE2640A15900EEB74B /* Build configuration list for PBXNativeTarget "jsonFarmacia" */;
+			buildConfigurationList = 257ABF252640BA6F00EEB74B /* Build configuration list for PBXNativeTarget "SeccionesTableView" */;
 			buildPhases = (
-				257ABEE62640A15700EEB74B /* Sources */,
-				257ABEE72640A15700EEB74B /* Frameworks */,
-				257ABEE82640A15700EEB74B /* Resources */,
+				257ABF0D2640BA6100EEB74B /* Sources */,
+				257ABF0E2640BA6100EEB74B /* Frameworks */,
+				257ABF0F2640BA6100EEB74B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = jsonFarmacia;
-			productName = jsonFarmacia;
-			productReference = 257ABEEA2640A15800EEB74B /* jsonFarmacia.app */;
+			name = SeccionesTableView;
+			productName = SeccionesTableView;
+			productReference = 257ABF112640BA6100EEB74B /* SeccionesTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		257ABEE22640A15700EEB74B /* Project object */ = {
+		257ABF092640BA6100EEB74B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					257ABEE92640A15700EEB74B = {
+					257ABF102640BA6100EEB74B = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 257ABEE52640A15700EEB74B /* Build configuration list for PBXProject "jsonFarmacia" */;
+			buildConfigurationList = 257ABF0C2640BA6100EEB74B /* Build configuration list for PBXProject "SeccionesTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 257ABEE12640A15700EEB74B;
-			productRefGroup = 257ABEEB2640A15800EEB74B /* Products */;
+			mainGroup = 257ABF082640BA6100EEB74B;
+			productRefGroup = 257ABF122640BA6100EEB74B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				257ABEE92640A15700EEB74B /* jsonFarmacia */,
+				257ABF102640BA6100EEB74B /* SeccionesTableView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		257ABEE82640A15700EEB74B /* Resources */ = {
+		257ABF0F2640BA6100EEB74B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257ABEFA2640A15900EEB74B /* LaunchScreen.storyboard in Resources */,
-				257ABEF72640A15900EEB74B /* Assets.xcassets in Resources */,
-				257ABEF52640A15800EEB74B /* Main.storyboard in Resources */,
+				257ABF212640BA6F00EEB74B /* LaunchScreen.storyboard in Resources */,
+				257ABF1E2640BA6F00EEB74B /* Assets.xcassets in Resources */,
+				257ABF1C2640BA6100EEB74B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		257ABEE62640A15700EEB74B /* Sources */ = {
+		257ABF0D2640BA6100EEB74B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				257ABEF22640A15800EEB74B /* ViewController.swift in Sources */,
-				257ABF062640ADDA00EEB74B /* DetalleViewController.swift in Sources */,
-				257ABEEE2640A15800EEB74B /* AppDelegate.swift in Sources */,
-				257ABF032640A4BF00EEB74B /* Medicamentos.swift in Sources */,
-				257ABEF02640A15800EEB74B /* SceneDelegate.swift in Sources */,
+				257ABF192640BA6100EEB74B /* ViewController.swift in Sources */,
+				257ABF152640BA6100EEB74B /* AppDelegate.swift in Sources */,
+				257ABF172640BA6100EEB74B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		257ABEF32640A15800EEB74B /* Main.storyboard */ = {
+		257ABF1A2640BA6100EEB74B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				257ABEF42640A15800EEB74B /* Base */,
+				257ABF1B2640BA6100EEB74B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		257ABEF82640A15900EEB74B /* LaunchScreen.storyboard */ = {
+		257ABF1F2640BA6F00EEB74B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				257ABEF92640A15900EEB74B /* Base */,
+				257ABF202640BA6F00EEB74B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		257ABEFC2640A15900EEB74B /* Debug */ = {
+		257ABF232640BA6F00EEB74B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		257ABEFD2640A15900EEB74B /* Release */ = {
+		257ABF242640BA6F00EEB74B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,36 +281,36 @@
 			};
 			name = Release;
 		};
-		257ABEFF2640A15900EEB74B /* Debug */ = {
+		257ABF262640BA6F00EEB74B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = jsonFarmacia/Info.plist;
+				INFOPLIST_FILE = SeccionesTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diana.jsonFarmacia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diana.SeccionesTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		257ABF002640A15900EEB74B /* Release */ = {
+		257ABF272640BA6F00EEB74B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = jsonFarmacia/Info.plist;
+				INFOPLIST_FILE = SeccionesTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.diana.jsonFarmacia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.diana.SeccionesTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		257ABEE52640A15700EEB74B /* Build configuration list for PBXProject "jsonFarmacia" */ = {
+		257ABF0C2640BA6100EEB74B /* Build configuration list for PBXProject "SeccionesTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				257ABEFC2640A15900EEB74B /* Debug */,
-				257ABEFD2640A15900EEB74B /* Release */,
+				257ABF232640BA6F00EEB74B /* Debug */,
+				257ABF242640BA6F00EEB74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		257ABEFE2640A15900EEB74B /* Build configuration list for PBXNativeTarget "jsonFarmacia" */ = {
+		257ABF252640BA6F00EEB74B /* Build configuration list for PBXNativeTarget "SeccionesTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				257ABEFF2640A15900EEB74B /* Debug */,
-				257ABF002640A15900EEB74B /* Release */,
+				257ABF262640BA6F00EEB74B /* Debug */,
+				257ABF272640BA6F00EEB74B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 257ABEE22640A15700EEB74B /* Project object */;
+	rootObject = 257ABF092640BA6100EEB74B /* Project object */;
 }
